@@ -1,11 +1,10 @@
 """
 Title:
-    Python script for reading a C file
+    Python script for working with google protobuf
 
 Assumption:
     1. All the python packages are installed
     2. You are using python==3.5
-    3. Any more assumptions <>
 
 Description:
     1. Describe the class
