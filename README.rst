@@ -80,6 +80,8 @@ Future
 Version History
 ---------------
 
+0.0.3 : Changed version of protobuf to 3.2.0 should work for any other version too
+
 0.0.2 : Changed setup version for protobuf
 
 0.0.1 : Initial version, tested upload to pypi
