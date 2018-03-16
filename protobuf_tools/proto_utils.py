@@ -139,7 +139,7 @@ def validate_proto_enum(enum, value, description):
     return False
 
 
-def main_func():
+def main():
     """
     To encode/decode proto messages
     """
@@ -223,4 +223,4 @@ def main_func():
 
 if __name__ == "__main__":
 
-    main_func()
+    main()
