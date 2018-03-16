@@ -210,8 +210,7 @@ def main():
             print show_proto(proto_message, all_fields, json)
         else:
             proto_to_stream(proto_message, str(file_path.with_suffix(".protoout")))
-        print 'success'
-
+        logger.info('success')
     else:
         proto_message = proto_from_stream(file_path, proto_type)
         if display:
@@ -222,6 +221,7 @@ def main():
             else:
                 out_file_path = file_path.with_suffix(".txt")
             proto_to_file(proto_message, out_file_path, default_fields=all_fields)
+        logger.info('success')
 
 
 if __name__ == "__main__":
