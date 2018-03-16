@@ -80,6 +80,8 @@ Future
 Version History
 ---------------
 
+0.0.2 : Changed setup version for protobuf
+
 0.0.1 : Initial version, tested upload to pypi
 
 
