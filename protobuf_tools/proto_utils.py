@@ -19,6 +19,8 @@ Author:
 # region GLOBAL IMPORTS
 import os
 import argparse
+
+import sys
 from google.protobuf import text_format, json_format
 import logging
 from pathlib2 import Path
@@ -189,6 +191,7 @@ def main():
     # Import all proto_files
     proto_type = None
     for f in proto_path.glob("*_pb2.py"):
+        sys.path.append(str(f.parent))
         proto_pb2 = __import__(str(f.stem))
         try:
             proto_type = getattr(proto_pb2, message)
