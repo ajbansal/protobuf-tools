@@ -8,7 +8,6 @@ if %1%==test (
     python setup.py test
 )
 
-echo asd
 if "%1%"=="upload_test" (
     rmdir dist /s /q
     python setup.py sdist
