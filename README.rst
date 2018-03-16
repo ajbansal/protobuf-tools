@@ -26,7 +26,6 @@ Python
 
 you can import it in your library as
 
-.. code-block::
     from protobuf_tools import proto_utils
 
 
