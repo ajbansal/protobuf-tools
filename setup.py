@@ -28,7 +28,7 @@ setup(name='protobuf_tools',
       packages=['protobuf_tools'],
       zip_safe=False,
       entry_points={'console_scripts': ["protobuftools=protobuf_tools.proto_utils:main"]},
-      install_requires=["protobuf==3.2.0",
+      install_requires=["protobuf==3.15.0",
                         "pathlib2==2.3.0"],
       include_package_data=True,
       classifiers=[
